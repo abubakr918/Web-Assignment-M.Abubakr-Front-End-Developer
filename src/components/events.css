@@ -1,0 +1,145 @@
+.back-button {
+    background-color: transparent;
+    height: 40px;
+    font-weight: bold;
+    border: none;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-decoration: underline;
+}
+
+div.events {
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-left: 40px;
+    padding-bottom: 50px;
+}
+
+div.event-grid {
+    background-color: rgb(224, 222, 222);
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    text-align: center;
+    padding-left: 20px;
+    margin-left: 10px;
+    height: 100%;
+
+}
+
+
+p.date,
+p.name,
+p.country,
+p.city {
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+
+}
+
+
+
+div.country-city,
+div.Name-date {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+hr.line {
+    width: 100%;
+    text-align: left;
+    margin-left: -10px;
+
+}
+
+h5.event-heading {
+    display: flex
+}
+
+p.p1,
+p.p2,
+p.p3,
+p.p4 {
+
+    font-weight: bold;
+    font-size: 13px;
+}
+
+
+
+/** Artist details css **/
+
+
+
+div.detail-grid {
+
+    background-color: rgb(224, 222, 222);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    text-align: center;
+    padding-left: 10px;
+    width: 60vh;
+    margin-left: 50px;
+    border: 1px solid #ccc;
+}
+
+img.grid-img {
+    width: 10vh;
+    height: 80%;
+    border-radius: 60%;
+    border: 1px solid black;
+    margin-left: 10px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+p.grid-para1 {
+
+    color: rgb(0, 0, 0);
+    display: flex;
+
+}
+
+p.grid-para2 {
+    font-size: 13px;
+    display: flex;
+
+
+}
+
+.fb-account-details {
+
+    margin-right: 50px;
+}
+
+.count-events {
+    display: flex;
+    margin-left: 53px;
+    font-weight: 500;
+}
+
+@media only screen and (min-width: 100px) and (max-width:783px) {
+
+    div.events {
+        background-color: rgb(255, 255, 255);
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        padding-top: 15px;
+        padding-right: 20px;
+        padding-left: 10px;
+        padding-bottom: 30px;
+    }
+   
+}

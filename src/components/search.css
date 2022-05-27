@@ -1,0 +1,52 @@
+
+
+.input-field{
+
+    background-color:white;
+    margin-top: 20px;
+    height: 50px;
+    width: 50%;
+    outline: 0;
+    border: 1px solid grey;
+   
+
+}
+
+div.form-group{
+    margin-left: 410px;
+    margin-top: 30px;
+    width: 500px;
+    height: 45px;
+    align-self: center;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: row;
+   
+
+}
+input.inputfield1{
+    background: transparent;
+    width: 300px;
+    height: 45px;
+    outline: 0;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+    padding-bottom: -10px;
+}
+input.inputfield2{
+    background-color: rgb(216, 212, 212);
+    width: 130px;
+    height: 39px;
+    outline: 0;
+    border-radius: 10px;
+    border: none;
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 55px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
